@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 150px;
+    height: 90px;
+    /* background-image: url(Images/logo.png); */
+    background-size: cover;
+    background-position: center;
+    /* background-color: black; */
+}
+.logo img{
+    width: 100%;
+    height: 90px;
+}
+nav{
+    width: 70%;
+    height: 80px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav span{
+    color: white;
+}
+a{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+a:hover{
+    border-bottom: 3px solid #CE0033;
+}
+.cont{
+    width: 10%;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.but{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px/10px;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    background-color: #CE0033;
+
+}
+section{
+    width: 100%;
+    height: 710px;
+    background-color: aliceblue;
+    margin-bottom: 2%;
+    /* display: flex; */
+}
+h1{
+    text-align: center;
+    color: #CE0033;
+    font-weight: bolder;
+    font-size: 32px;
+    /* margin-bottom: 5%; */
+}
+.container{
+    width: 100%;
+    height:500px;
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+.cont1{
+    width: 50%;
+    height: 500px;
+}
+.cont2{
+    width: 50%;
+    height: 500px;
+
+}
+.annoce{
+    width: 80%;
+    height: 150px;
+    background-color: #CE0033;
+    text-align: center;
+    border-radius: 0px 0px 100px 0px;
+}
+.annoce p{
+    font-size: 38px;
+    color: white;
+
+}
+.arriere{
+    width: 350px;
+    height: 400px;
+    background-color: #CE0033;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 10px/10px;
+    margin-left: 20%;
+    transform:rotate(5deg);
+}
+.lor{
+   width: 400px;
+    height: 350px; 
+    background-color: white;
+    box-shadow: 2px 2px 3px gainsboro;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px/10px;
+    margin: -20% 12%;
+    
+}
+.lor p{
+    font-size: 20px;
+}
+.slid{
+    width: 100px;
+    height: 40px;
+    /* background-color: aqua; */
+    margin:5% 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.s1{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #CE0033;
+}
+.s2{
+    width: 50px;
+    height: 10px;
+    border-radius: 5px/5px;
+    background-color: #CE0033;
+}
+.container-pedag{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.cont-pedag{
+    width: 45%;
+    height: 300px;
+    background-image: url(Images/img.jpg);
+    background-size: cover;
+}
+.cont-pedag1{
+    width: 45%;
+    height: 300px;
+    /* background-color:yellow */
+}
+.cont-pedag1 h2{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #CE0033;
+    margin-bottom: 2%;
+}
+.cont-pedag1 p{
+    font-size: 24px;
+}
+.line{
+    width: 100px;
+    height: 10px;
+    margin-left: 47%;
+    border-radius: 5px/5px;
+    background-color: #CE0033;
+}
+.box-peda{
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    width: 48%;
+    height: 480px;
+    /* background: #000; */
+}
+.box1{
+    width: 48%;
+    height: 480px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.bloc-container{
+    width: 100%;
+    height: 420px;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.bloc{
+    width: 45%;
+    height: 120px;
+    background-color: white;
+    border-bottom: 2px solid red;
+    box-shadow: 5px 5px 10px gainsboro;
+}
+.cadre{
+    width: 50%;
+    height: 400px;
+    background-color: #CE0033;
+    border-radius: 10px/10px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.img-cadre{
+    width: 48%;
+    height: 400px;
+    background-image: url(Images/Simplon-KIDS.jpg);
+    background-size: cover;
+    border-radius: 10px/10px;
+    position: relative;
+    margin-left: -51%;
+    margin-top: 2%;
+    
+}
